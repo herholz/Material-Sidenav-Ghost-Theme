@@ -1,4 +1,7 @@
 /*CUSTOM BY PATRICK HERHOLZ*/
+.card-date{
+  float:right !important;
+}
 .menuEntry{  
     background-repeat: no-repeat;
     background-size: 32px;
