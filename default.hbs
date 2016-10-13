@@ -11,7 +11,7 @@
         <meta name="description" content="{{meta_description}}" />
         {{!CSS}}
         <link type="text/css" rel="stylesheet" href="{{asset "assets/css/materialize.min.css"}}" media="screen,projection">
-        <link type="text/css" rel="stylesheet" href="{{asset "assets/css/style.min.css"}}" media="screen,projection">  
+        <link type="text/css" rel="stylesheet" href="{{asset "assets/css/style.css"}}" media="screen,projection">  
         {{! Social Meta Tags If you need..}}
         {{! Ghost header injection }}
         {{ghost_head}}
@@ -24,10 +24,17 @@
                 <div class="navwrapper container">  
                     <h1 id="nav-head">{{@blog.title}}</h1>
                     <p class="blue-grey-text text-lighten-4">{{@blog.description}}</p>
-                    <a href="{{@blog.url}}"><i class="material-icons">&#xE88A;</i> STARTSEITE</a>
-                    <a href="{{@blog.url}}/tag/produkt"><i class="material-icons">&#xE54E;</i> Produkte</a>
+                    
+                    <a class="menuEntry solar" href="https://aws.sparwerker.de/tag/solar/">Solar</a>
+
+                    <a class="menuEntry luftung" href="https://aws.sparwerker.de/tag/solar/">Lüftung und Klima</a>
+
+                    <a class="menuEntry heizung" href="https://aws.sparwerker.de/tag/solar/">Heizung & Thermie</a>
+
+                    <a class="menuEntry sicherheit" href="https://aws.sparwerker.de/tag/solar/">Smart Home</a>
+
                     <div class="navmenu-social">
-                        <a href="#" class="btn-floating">
+                        <a href="https://www.facebook.com/sparwerker.de" class="btn-floating">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>                      
                         <a href="mailto:info@sparwerker.de" class="btn-floating">
