@@ -2,13 +2,16 @@
 .menuEntry{  
     background-repeat: no-repeat;
     background-size: 32px;
-    background-position: 64px 16px;
+    background-position: 0 16px;
+    text-align: left !important;
+    text-transform: uppercase;
+    text-indent: 8px;
 }
 .solar{
       background-image: url(https://www.sparwerker.de/images/solar.svg);
 }
 .heizung{
-      background-image: url(https://www.sparwerker.de/images/solar.svg);
+      background-image: url(https://www.sparwerker.de/images/heizung.svg);
 }
 .luftung{
       background-image: url(https://www.sparwerker.de/images/lueftung.svg);
