@@ -19,6 +19,9 @@
 .sicherheit{
       background-image: url(https://www.sparwerker.de/images/sicherheit.svg);
 }
+.strom{
+      background-image: url(https://www.sparwerker.de/images/strom-licht.svg);
+}
 /*=========================*/
 html { font-size: 62.5%; } 
 body { font-size: 1.4rem; background: #EEE;} 
