@@ -15,6 +15,14 @@
     position: relative;
     width: 100%;
 }
+.post {
+    max-width: 900px;
+    margin: 20px auto !important;
+    position: relative;
+    float: inherit !important;
+    margin-top: 68px !important;
+}
+
 @media (max-width: 48.75em){
   #header-nav{
     display:none;
@@ -33,11 +41,39 @@
     display: inline-block !important;
     font-size: .9em !important;
   }
+  .blogBadge{
+    display:none;
+  }
 }
 @media (min-width: 75em){
   .wrapper {
       max-width: 75em !important;
   }
+  
+  .blogBadge{
+    opacity: 0.95;
+    font-size: 14px;
+    background-color: #ad0402 !important;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-15deg);
+    left: -10px;
+    position: relative;
+  }
+  .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+  }
+
 }
 main {
   margin-top: 60px;
