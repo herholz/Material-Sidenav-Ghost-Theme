@@ -87,6 +87,7 @@ main {
     overflow-y: hidden;
     padding: 20px 0;
     position: relative;
+    top: 60px;
 }
 #main-nav ul{
     display: -webkit-box;
