@@ -15,22 +15,23 @@
     position: relative;
     width: 100%;
 }
-@media (min-width: 75em){
-  .wrapper {
-      max-width: 75em;
-  }
-}
+
 @media (min-width: 48.75em){
   .wrapper {
     max-width: 48.75em;
   }
   #headerLogo {
-    display: inline-block;
-    margin: 0;
+    display: inline-block !important;
+    margin: 0 !important;
   }
   #header-nav {
-    display: inline-block;
-    font-size: .9em;
+    display: inline-block !important;
+    font-size: .9em !important;
+  }
+}
+@media (min-width: 75em){
+  .wrapper {
+      max-width: 75em !important;
   }
 }
 
@@ -47,7 +48,6 @@
     text-decoration: none;
 }
 #header-nav{
-    display: none;
     font-size: 1.1em;
     font-weight: 200;
     position: absolute;
