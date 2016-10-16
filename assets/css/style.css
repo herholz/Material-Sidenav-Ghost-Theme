@@ -106,7 +106,7 @@ main {
     padding: 20px 0;
     position: relative;
     top: 60px;
-    width: 1200px;
+
 }
 #main-nav ul{
     display: -webkit-box;
@@ -124,7 +124,7 @@ main {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1200px;
 }
 #main-nav li{
     background-position: 50% 0;
