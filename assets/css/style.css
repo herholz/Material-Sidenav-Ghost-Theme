@@ -15,6 +15,11 @@
     position: relative;
     width: 100%;
 }
+@media (max-width: 48.75em){
+  #header-nav{
+    display:none;
+  }
+}
 
 @media (min-width: 48.75em){
   .wrapper {
@@ -34,7 +39,16 @@
       max-width: 75em !important;
   }
 }
-
+main {
+  margin-top: 60px;
+}
+.card-front {
+    max-width: 750px;
+    margin: 20px auto !important;
+    position: relative;
+    float: inherit !important;
+    margin-top: 68px !important;
+}
 #headerLogo{
     display: block;
     height: 60px;
